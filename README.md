@@ -16,5 +16,7 @@ var uniforms = getUniforms(glProgram);
 gl.uniform1f(uniforms.uAlpha, 0.5);
 ```
 
+This module is meant to be incorporated via [browserify](http://browserify.org/).
+
 ## Testing
 `npm t`

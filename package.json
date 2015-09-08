@@ -4,7 +4,7 @@
   "description": "Given a shader program, returns an object containing it's uniform and attribute locations.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "browserify test/test.js | node_modules/smokestack/bin/smokestack.js -b firefox | node_modules/tap-nyan/bin/cmd.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,12 @@
   "bugs": {
     "url": "https://github.com/nickdesaulniers/reflect-program/issues"
   },
-  "homepage": "https://github.com/nickdesaulniers/reflect-program#readme"
+  "homepage": "https://github.com/nickdesaulniers/reflect-program#readme",
+  "devDependencies": {
+    "compile-shader": "0.0.3",
+    "link-shader": "0.0.2",
+    "smokestack": "^3.3.1",
+    "tap-nyan": "0.0.2",
+    "tape": "^4.2.0"
+  }
 }
