@@ -1,0 +1,28 @@
+{
+  "name": "reflect-program",
+  "version": "0.0.0",
+  "description": "Given a shader program, returns an object containing it's uniform and attribute locations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickdesaulniers/reflect-program.git"
+  },
+  "keywords": [
+    "program",
+    "getAttribute",
+    "getUniform",
+    "attribute",
+    "uniform",
+    "location",
+    "webgl"
+  ],
+  "author": "Nick Desaulniers",
+  "license": "Beerware",
+  "bugs": {
+    "url": "https://github.com/nickdesaulniers/reflect-program/issues"
+  },
+  "homepage": "https://github.com/nickdesaulniers/reflect-program#readme"
+}
